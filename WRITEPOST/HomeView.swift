@@ -26,7 +26,11 @@ struct HomeView: View {
                 }
                 .padding(.horizontal, 24.0)
                 
+                Spacer()
+                
                 Text(" Write Fearlessly. Share Boldly.\nInspire Passion. Make Your Mark.")
+                
+                Text("Explore a vast collection of short stories and insights from passionate writer around the world")
                     
                     
                 
