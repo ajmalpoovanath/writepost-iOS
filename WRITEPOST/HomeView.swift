@@ -12,6 +12,23 @@ struct HomeView: View {
         ZStack{
             Color("background")
                 .ignoresSafeArea()
+            VStack{
+                HStack{
+                    Image("logo")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(height: /*@START_MENU_TOKEN@*/42.0/*@END_MENU_TOKEN@*/)
+                    Spacer()
+                    Image(systemName: "line.3.horizontal")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(height: 24.0)
+                }
+                .padding(.horizontal, 24.0)
+                Spacer()
+            }
+            .padding(.top, 15.0)
+            
         }
     }
 }
