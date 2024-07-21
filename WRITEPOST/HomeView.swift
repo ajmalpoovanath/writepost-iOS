@@ -25,7 +25,11 @@ struct HomeView: View {
                         .frame(height: 24.0)
                 }
                 .padding(.horizontal, 24.0)
-                Spacer()
+                
+                Text(" Write Fearlessly. Share Boldly.\nInspire Passion. Make Your Mark.")
+                    
+                    
+                
             }
             .padding(.top, 15.0)
             
