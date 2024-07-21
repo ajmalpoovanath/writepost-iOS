@@ -32,10 +32,24 @@ struct HomeView: View {
                 
                 Text("Explore a vast collection of short stories and insights from passionate writer around the world")
                     
-                    
+                HStack{
+                    Image("startwriting")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                    Image("explore")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        
+                }
+                .frame(height: /*@START_MENU_TOKEN@*/75.0/*@END_MENU_TOKEN@*/)
+                .padding(.horizontal, 18.0)
                 
+                
+                    
+                Spacer()
             }
             .padding(.top, 15.0)
+            
             
         }
     }
